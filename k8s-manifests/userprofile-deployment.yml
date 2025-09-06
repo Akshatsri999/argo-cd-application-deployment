@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: userprofile-deployment
-  namespace: murali-ns
+  namespace: akshat
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: userprofile
