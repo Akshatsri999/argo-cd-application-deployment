@@ -4,7 +4,7 @@ metadata:
   name: usernode-js-service
   namespace: akshat
 spec:
-  type: LoadBalancer  # Use NodePort if LoadBalancer is not supported
+  type: ClusterIP
   ports:
     - port: 3130
       targetPort: 3130
